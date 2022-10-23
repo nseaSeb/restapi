@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>RestApi</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>RestApi</h1>
+      <h2>Version : {{version}}</h2>
+      <p>Simple restApi with NestJS / MongoDB.</p>
+      <p>You can CRUD with your custom path</p>
+      <div class="d-shape d-right"></div>
+      <div class="d-shape d-left"></div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>
+<style>
+  body {
+    background-color: #333333;
+    color: whitesmoke;
+    text-align: center;
+  }
+  a {
+    color: #f1c50e;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    height: 70vh;
+  }
+  .d-left {
+    left: 0;
+    right: auto;
+    height: auto;
+    margin: initial;
+  }
+  .d-right {
+    left: auto;
+    right: 0;
+    height: auto;
+    margin: initial;
+  }
+  .d-shape {
+    background-color: #f1c50e;
+    width: 21px;
+    height: 77%;
+    position: fixed;
+    top: 10%;
+  }
+</style>
+
